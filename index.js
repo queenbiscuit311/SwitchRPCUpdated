@@ -33,7 +33,7 @@ function createWindow() {
             mainWindow.loadFile('index.html')
         }
         catch(e) {
-            mainWindow.loadFile('no-server.html')
+            mainWindow.loadFile('error.html')
         }
     });
 }
