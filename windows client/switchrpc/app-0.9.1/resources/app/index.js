@@ -25,11 +25,19 @@ function createWindow() {
     mainWindow.setMenu(null);
 
     request('https://raw.githubusercontent.com/queenbiscuit311/SwitchRPCUpdated/master/resources/rpc.json', function(err, res, body) {
-        data = JSON.parse(body);
+        if (err || !body) {
+            mainWindow.loadFile('no-server.html');
+        }
+        try {
+            data = JSON.parse(body);
             mainWindow.loadFile('index.html')
+        }
+        catch(e) {
+            mainWindow.loadFile('error.html')
+        }
     });
 }
- 
+
 app.whenReady().then(createWindow);
 
 
