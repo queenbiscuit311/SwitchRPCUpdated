@@ -24,7 +24,7 @@ function createWindow() {
 
     mainWindow.setMenu(null);
 
-    request('http://nintenbot.js.org/rpc.json', function(err, res, body) {
+    request('https://raw.githubusercontent.com/queenbiscuit311/SwitchRPCUpdated/master/resources/rpc.json', function(err, res, body) {
         if (err || !body) {
             mainWindow.loadFile('no-server.html');
         }
