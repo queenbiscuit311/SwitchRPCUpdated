@@ -2,58 +2,83 @@
 	"version": 4,
 	"games": ["splatoon 2", "splatoon2", "rocket league", "mario kart 8 deluxe", "mk8d", "super mario odyssey", "odyssey", "mario + rabbids", "mario rabbids", "mario+rabbids", "botw", "zelda botw", "breath of the wild", "zelda breath of the wild", "xenoblade", "xenoblade 2", "xenoblade chronicles 2", "arms", "kirby star allies", "sonic mania", "minecraft", "mario tennis", "mario tennis aces", "fortnite", "pokemon: let's go pikachu!", "pokemon lets go pikachu", "pokemon: let's go eevee!", "pokemon lets go eevee", "overcooked 2", "overcooked", "super smash bros. ultimate", "super smash bros ultimate", "ssbu", "smash ultimate", "super mario maker 2", "mario maker 2", "smm2", "acnh", "ac:nh", "animal crossing", "animal crossing: new horizons", "animal crossing new horizons"],
 	"gameData": [{"name": "Splatoon 2", "pic": "splatoon_2"},
-		     {"name": "Splatoon 2", "pic": "splatoon_2"},
+		     {"name": "Splatoon 3", "pic": "splatoon_3"},
 		     {"name": "Rocket League", "pic": "rocket_league"},
 		     {"name": "Mario Kart 8 Deluxe", "pic": "mk8d"},
-		     {"name": "Mario Kart 8 Deluxe", "pic": "mk8d"},
-		     {"name": "Super Mario Odyssey", "pic": "odyssey"},
 		     {"name": "Super Mario Odyssey", "pic": "odyssey"},
 		     {"name": "Mario + Rabbids Kingdom Battle", "pic": "mariorabbids"},
-		     {"name": "Mario + Rabbids Kingdom Battle", "pic": "mariorabbids"},
-		     {"name": "Mario + Rabbids Kingdom Battle", "pic": "mariorabbids"},
 		     {"name": "Breath of the Wild", "pic": "botw"},
-		     {"name": "Breath of the Wild", "pic": "botw"},
-		     {"name": "Breath of the Wild", "pic": "botw"},
-		     {"name": "Breath of the Wild", "pic": "botw"},
-		     {"name": "Xenoblade Chronicles 2", "pic": "xeno"},
-		     {"name": "Xenoblade Chronicles 2", "pic": "xeno"},
-		     {"name": "Xenoblade Chronicles 2", "pic": "xeno"},
+		     {"name": "Xenoblade Chronicles: Definitive Edition", "pic": "xeno"},
+		     {"name": "Xenoblade Chronicles 2", "pic": "xeno2"},
+		     {"name": "Xenoblade Chronicles 3", "pic": "xeno3"},
 		     {"name": "ARMS", "pic": "arms"},
-		     {"name": "Kirby Star Allies", "pic": "kirby"},
+		     {"name": "Kirby Star Allies", "pic": "kirbystar"},
+		     {"name": "Kirby and the Forgotten Land", "pic": "kirbyforgor"},
 		     {"name": "Sonic Mania", "pic": "sonic_mania"},
+		     {"name": "Sonic Colours: Ultimate", "pic": "soniccolor"},
 		     {"name": "Minecraft", "pic": "minecraft"},
-		     {"name": "Mario Tennis Aces", "pic": "mario_tennis"},
-		     {"name": "Mario Tennis Aces", "pic": "mario_tennis"},
+		     {"name": "Mario Tennis Aces", "pic": "mario_tennis_aces"},
 		     {"name": "Fortnite", "pic": "fortnite"},
-		     {"name": "Pokemon: Let's Go, Pikachu!", "pic": "plg_p"},
+		     {"name": "Apex Legends", "pic": "apexlegends"},
 		     {"name": "Pokemon: Let's Go, Pikachu!", "pic": "plg_p"},
 		     {"name": "Pokemon: Let's Go, Eevee!", "pic": "plg_e"},
-		     {"name": "Pokemon: Let's Go, Eevee!", "pic": "plg_e"},
+		     {"name": "Pokemon Sword", "pic": "pokemon_sword"},
+		     {"name": "Pokemon Shield", "pic": "pokemon_shield"},
+		     {"name": "Pokemon Brilliant Diamond", "pic": "pokemon_diamond"},
+		     {"name": "Pokemon Shining Pearl", "pic": "pokemon_pearl"},
 		     {"name": "Overcooked 2", "pic": "overcooked_2"},
-		     {"name": "Overcooked 2", "pic": "overcooked_2"},
-		     {"name": "Super Smash Bros. Ultimate", "pic": "ssbu"},
-		     {"name": "Super Smash Bros. Ultimate", "pic": "ssbu"},
-		     {"name": "Super Smash Bros. Ultimate", "pic": "ssbu"},
 		     {"name": "Super Smash Bros. Ultimate", "pic": "ssbu"},
 		     {"name": "Super Mario Maker 2", "pic": "smm2"},
-		     {"name": "Super Mario Maker 2", "pic": "smm2"},
-		     {"name": "Super Mario Maker 2", "pic": "smm2"},
 		     {"name": "Animal Crossing: New Horizons", "pic": "acnh"},
-		     {"name": "Animal Crossing: New Horizons", "pic": "acnh"},
-		     {"name": "Animal Crossing: New Horizons", "pic": "acnh"},
-		     {"name": "Animal Crossing: New Horizons", "pic": "acnh"},
-		     {"name": "Animal Crossing: New Horizons", "pic": "acnh"}],
+		     {"name": "Hollow Knight", "pic": "hollowknight"},
+		     {"name": "Hades", "pic": "hades"},
+		     {"name": "Metroid Dread", "pic": "metroiddread"},
+		     {"name": "Ring Fit Adventure", "pic": "ring_fit"},
+		     {"name": "Bayonetta", "pic": "bayonetta"},
+		     {"name": "Bayonetta 2", "pic": "bayonetta_2"},
+		     {"name": "The Legend of Zelda: Link's Awakening", "pic": "zeldaawake"},
+		     {"name": "The Legend of Zelda: Skyward Sword", "pic": "skyward"},
+		     {"name": "Cuphead", "pic": "cuphead"},
+		     {"name": "Yoshi's Crafted World", "pic": "yoshicrafted"},
+		     {"name": "Hyrule Warriors Definitive Edition", "pic": "hyrule_warriors"},
+		     {"name": "Hyrule Warriors: Age of Calamity", "pic": "hyrule_aoc"},
+		     {"name": "Donkey Kong Country Tropical Freeze", "pic": "dkctf"},
+		     {"name": "Stardew Valley", "pic": "stardew"},
+		     {"name": "Celeste", "pic": "celeste"},
+		     {"name": "Mario Golf: Super Rush", "pic": "super_rush"},
+		     {"name": "Mario Party Superstars", "pic": "partysuperstars"},
+		     {"name": "Mario Strikers: Battle League Football", "pic": "battleleaguefootball"},
+		     {"name": "New Super Mario Bros. U Deluxe", "pic": "nsmbu"},
+		     {"name": "Paper Mario: The Origami King", "pic": "origamiking"},
+		     {"name": "Super Mario 3D All-Stars", "pic": "3dallstars"},
+		     {"name": "Super Mario 3D World + Bowser's Fury", "pic": "3dworld"},
+		     {"name": "Super Mario Party", "pic": "supermarioparty"},
+		     {"name": "New Pokemon Snap", "pic": "pkmnsnap"},
+		     {"name": "Pokemon Legends: Arceus", "pic": "legendsarceus"},
+		     {"name": "Pokemon UNITE", "pic": "pokemon_unite"},
+		     {"name": "Among Us", "pic": "sussy"},
+		     {"name": "Ninjala", "pic": "ninjala"},
+		     {"name": "Fall Guys", "pic": "falgus"},
+		     {"name": "NES - NSO", "pic": "nes"},
+		     {"name": "SNES - NSO", "pic": "snes"},
+		     {"name": "N64 - NSO", "pic": "n64"},
+		     {"name": "Famicom - NSO", "pic": "famicom"},
+		     {"name": "Super Famicom - NSO", "pic": "superfamicon"},
+		     {"name": "SMD - NSO", "pic": "smd"},
+		     {"name": "YouTube", "pic": "youtube"},
+		     {"name": "Hulu", "pic": "hulu"},
+		     {"name": "Twitch", "pic": "twitch"}],
 	"enabled": true,
 	"gameLibrary": [
       {
         "name": "Splatoon 2",
         "pic": "splatoon_2",
-        "aliases": ["splatoon 2", "splatoon2", "splatoon"]
+        "aliases": ["splatoon 2", "splatoon2"]
       },
       {
-        "name": "Rocket League",
-        "pic": "rocket_league",
-        "aliases": ["rocket league"]
+        "name": "Splatoon 3",
+        "pic": "splatoon_3",
+        "aliases": ["splatoon 3", "splatoon3", "splatoon"]
       },
       {
         "name": "Mario Kart 8 Deluxe",
@@ -71,14 +96,94 @@
         "aliases": ["mario + rabbids", "mario rabbids", "mario + rabbids kingdom battle"]
       },
       {
-        "name": "Breath of the Wild",
+        "name": "Mario Tennis Aces",
+        "pic": "mario_tennis_aces",
+        "aliases": ["mario tennis", "mario tennis aces"]
+      },
+      {
+        "name": "Super Mario Maker 2",
+        "pic": "smm2",
+        "aliases": ["super mario maker 2", "mario maker 2", "mario maker", "smm", "smm2"]
+      },
+      {
+        "name": "Mario Golf: Super Rush",
+        "pic": "super_rush",
+        "aliases": ["mario golf: super rush", "mario golf super rush"]
+      },
+      {
+        "name": "Mario Party Superstars",
+        "pic": "partysuperstars",
+        "aliases": ["mario party superstars"]
+      },
+      {
+        "name": "Mario Strikers: Battle League Football",
+        "pic": "battleleaguefootball",
+        "aliases": ["mario strikers: battle league football", "mario strikers battle league football", "battle league football"]
+      },
+      {
+        "name": "New Super Mario Bros. U Deluxe",
+        "pic": "nsmbu",
+        "aliases": ["new super mario bros. u deluxe", "new super mario bros u deluxe", "new super mario bros u", "nsmbu"]
+      },
+      {
+        "name": "Paper Mario: The Origami King",
+        "pic": "origamiking",
+        "aliases": ["paper mario: the origami king", "paper mario the origami king", "paper mario: origami king", "paper mario origami king", "the origami king", "origami king"]
+      },
+      {
+        "name": "Super Mario 3D All-Stars",
+        "pic": "3dallstars",
+        "aliases": ["super mario 3d all-stars", "super mario 3d allstars", "super mario 3d all stars", "3d all-stars", "3d allstars", "3d all stars"]
+      },
+      {
+        "name": Super Mario 3D World + Bowser's Fury
+        "pic": "3dworld",
+        "aliases": ["super mario 3d world + bowser's fury", "super mario 3d world + bowsers fury", "super mario 3d world bowser's fury", "super mario 3d world bowsers fury", "super mario 3d world", "3d world"]
+      },
+      {
+        "name": "Super Mario Party",
+        "pic": "supermarioparty",
+        "aliases": ["super mario party"]
+      },
+      {
+        "name": "The Legend of Zelda: Breath of the Wild",
         "pic": "botw",
-        "aliases": ["breath of the wild", "zelda botw", "botw"]
+        "aliases": ["breath of the wild", "zelda botw", "botw", "the legend of zelda: breath of the wild", "the legend of zelda breath of the wild"]
+      },
+      {
+        "name": "The Legend of Zelda: Link's Awakening",
+        "pic": "zeldaawake",
+        "aliases": ["the legend of zelda: link's awakening", "the legend of zelda: links awakening", "the legend of zelda link's awakening", "the legend of zelda links awakening", "link's awakening", "links awakening"]
+      },
+      {
+        "name": "The Legend of Zelda: Skyward Sword",
+        "pic": "skyward",
+        "aliases": ["the legend of zelda: skyward sword", "the legend of zelda skyward sword", "skyward sword"]
+      },
+      {
+        "name": "Hyrule Warriors Definitive Edition",
+        "pic": "hyrule_warriors",
+        "aliases": ["hyrule warriors definitive edition", "hyrule warriors"]
+      },
+      {
+        "name": "Hyrule Warriors: Age of Calamity",
+        "pic": "hyrule_aoc",
+        "aliases": ["hyrule warriors: age of calamity", "hyrule warriors age of calamity", "hyrule warriors aoc", "age of calamity", "aoc"]
+      },
+      {
+        "name": "Xenoblade Chronicles: Definitive Edition",
+        "pic": "xeno",
+        "aliases": ["xenoblade chronicles: definitive edition", "xenoblade chronicles definitive edition", "xenoblade chronicles", "xenoblade"]
       },
       {
         "name": "Xenoblade Chronicles 2",
-        "pic": "xeno",
-        "aliases": ["xenoblade chronicles 2", "xenoblade", "xenoblade 2"]
+        "pic": "xeno2",
+        "aliases": ["xenoblade chronicles 2", "xenoblade 2"]
+      },
+      {
+        "name": "Xenoblade Chronicles 3",
+        "pic": "xeno3",
+        "aliases": ["xenoblade chronicles 3", "xenoblade 3"]
       },
       {
         "name": "ARMS",
@@ -87,8 +192,13 @@
       },
       {
         "name": "Kirby Star Allies",
-        "pic": "kirby",
-        "aliases": ["kirby star allies", "kirby", "star allies"]
+        "pic": "kirbystar",
+        "aliases": ["kirby star allies", "star allies"]
+      },
+      {
+        "name": "Kirby and the Forgotten Land",
+        "pic": "kirbyforgor",
+        "aliases": ["kirby and the forgotten land", "kirby forgotten land", "forgotten land"]
       },
       {
         "name": "Sonic Mania",
@@ -96,19 +206,34 @@
         "aliases": ["sonic mania", "mania"]
       },
       {
+        "name": "Sonic Colours: Ultimate",
+        "pic": "soniccolor",
+        "aliases": ["sonic colours: ultimate", "sonic colors: ultimate", "sonic colours ultimate", "sonic colors ultimate", "sonic colours", "sonic colors"]
+      },
+      {
         "name": "Minecraft: Bedrock Edition",
         "pic": "minecraft",
         "aliases": ["minecraft bedrock", "minecraft bedrock edition", "minecraft"]
       },
       {
-        "name": "Mario Tennis Aces",
-        "pic": "mario_tennis",
-        "aliases": ["mario tennis", "mario tennis aces"]
-      },
-      {
         "name": "Fortnite",
         "pic": "fortnite",
         "aliases": ["fortnite"]
+      },
+      {
+        "name": "Ninjala",
+        "pic": "ninjala",
+        "aliases": ["ninjala"]
+      },
+      {
+        "name": "Rocket League",
+        "pic": "rocket_league",
+        "aliases": ["rocket league"]
+      },
+      {
+        "name": "Fall Guys",
+        "pic": "falgus",
+        "aliases": ["fall guys"]
       },
       {
         "name": "Pokemon: Let's Go, Pikachu!",
@@ -121,26 +246,6 @@
         "aliases": ["pokemon: let's go, eevee!", "pokemon lets go eevee"]
       },
       {
-        "name": "Overcooked 2",
-        "pic": "overcooked_2",
-        "aliases": ["overcooked 2", "overcooked"]
-      },
-      {
-        "name": "Super Smash Bros. Ultimate",
-        "pic": "ssbu",
-        "aliases": ["super smash bros. ultimate", "super smash bros ultimate", "smash", "smash ultimate", "ultimate", "ssbu"]
-      },
-      {
-        "name": "Super Mario Maker 2",
-        "pic": "smm2",
-        "aliases": ["super mario maker 2", "mario maker 2", "mario maker", "smm", "smm2"]
-      },
-      {
-        "name": "Animal Crossing: New Horizons",
-        "pic": "acnh",
-        "aliases": ["animal crossing: new horizons", "animal crossing new horizons", "new horizons", "animal crossing"]
-      },
-      {
         "name": "Pokemon Sword",
         "pic": "pokemon_sword",
         "aliases": ["pokemon sword", "sword"]
@@ -151,9 +256,149 @@
         "aliases": ["pokemon shield", "shield"]
       },
       {
+        "name": "Pokemon Brilliant Diamond",
+        "pic": "pokemon_diamond",
+        "aliases": ["pokemon brilliant diamond", "brilliant diamond", "pokemon diamond"]
+      },
+      {
+        "name": "Pokemon Shining Pearl",
+        "pic": "pokemon_pearl",
+        "aliases": ["pokemon shining pearl", "shining pearl", "pokemon pearl"]
+      },
+      {
+        "name": "Overcooked 2",
+        "pic": "overcooked_2",
+        "aliases": ["overcooked 2", "overcooked"]
+      },
+      {
+        "name": "Super Smash Bros. Ultimate",
+        "pic": "ssbu",
+        "aliases": ["super smash bros. ultimate", "super smash bros ultimate", "smash", "smash ultimate", "ultimate", "ssbu"]
+      },
+      {
+        "name": "Animal Crossing: New Horizons",
+        "pic": "acnh",
+        "aliases": ["animal crossing: new horizons", "animal crossing new horizons", "new horizons", "animal crossing"]
+      },
+      {
         "name": "Fire Emblem: Three Houses",
         "pic": "fe_3h",
         "aliases": ["fire emblem", "three houses", "fire emblem three houses", "fire emblem: three houses"]
+      } 
+      {
+        "name": "Hollow Knight",
+        "pic": "hollowknight",
+        "aliases": ["hollow knight"]
+      },
+      {
+        "name": "Hades",
+        "pic": "hades",
+        "aliases": ["hades"]
+      },
+      {
+        "name": "Celeste",
+        "pic": "celeste",
+        "aliases": ["celeste"]
+      },
+      {
+        "name": "Cuphead",
+        "pic": "cuphead",
+        "aliases": ["cuphead"]
+      },
+      {
+        "name": "Stardew Valley",
+        "pic": "stardew",
+        "aliases": ["stardew valley", "stardew"]
+      },
+      {
+        "name": "Among Us",
+        "pic": "sussy",
+        "aliases": ["Among Us", "amogus", "among", "sus"]
+      },
+      {
+        "name": "Metroid Dread",
+        "pic": "metroiddread",
+        "aliases": ["metroid dread", "dread"]
+      },
+      {
+        "name": "Ring Fit Adventure",
+        "pic": "ring_fit",
+        "aliases": ["ring fit adventure", "ring fit"]
+      },
+      {
+        "name": "Bayonetta",
+        "pic": "bayonetta",
+        "aliases": ["bayonetta"]
+      },
+      {
+        "name": "Bayonetta 2",
+        "pic": "bayonetta_2",
+        "aliases": ["bayonetta 2"]
+      },
+      {
+        "name": "Donkey Kong Country Tropical Freeze",
+        "pic": "dkctf",
+        "aliases": ["donkey kong country tropical freeze", "tropical freeze"]
+      },
+      {
+        "name": "New Pokemon Snap",
+        "pic": "pkmsnap",
+        "aliases": ["new pokemon snap", "pokemon snap"]
+      },
+      {
+        "name": "Pokemon Legends: Arceus",
+        "pic": "legendsarceus",
+        "aliases": ["pokemon legends: arceus", "pokemon legends arceus", "legends arceus"]
+      },
+      {
+        "name": "Pokemon UNITE",
+        "pic": "pokemon_unite",
+        "aliases": ["pokemon unite", "unite"]
+      },
+      {
+        "name": "NES - NSO",
+        "pic": "nes",
+        "aliases": ["nes - nso", "nes nso", "nintendo entertainment system - nintendo switch online", "nintendo entertainment system nintendo switch online", "nes"]
+      },
+      {
+        "name": "SNES - NSO",
+        "pic": "snes",
+        "aliases": ["snes - nso", "snes nso", "super nintendo entertainment system - nintendo switch online", "super nintendo entertainment system nintendo switch online", "snes"]
+      },
+      {
+        "name": "N64 - NSO",
+        "pic": "n64",
+        "aliases": ["n64 - nso", "n64 nso", "nintendo 64 - nintendo switch online", "nintendo 64 nintendo switch online", "n64"]
+      },
+      {
+        "name": "Famicom - NSO",
+        "pic": "famicom",
+        "aliases": ["famicom - nso", "famicom nso", "famicom - nintendo switch online", "famicom nintendo switch online", "famicom"]
+      },
+      {
+        "name": "Super Famicom - NSO",
+        "pic": "superfamicom",
+        "aliases": ["super famicom - nso", "super famicom nso", super famicom - nintendo switch online, super famicom nintendo switch online, super famicom]
+      },
+      {
+        "name": "SMD - NSO",
+        "pic": "smd",
+        "aliases": ["smd - nso", "smd nso", "sega mega drive - nintendo switch online", "sega mega drive nintendo switch online", "smd"]
+      },
+      {
+        "name": "YouTube",
+        "pic": "youtube",
+        "aliases": ["youtube"]
+      },
+      {
+        "name": "Hulu",
+        "pic": "hulu",
+        "aliases": ["hulu"]
+      },
+      {
+        "name": "Twitch",
+        "pic": "twitch",
+        "aliases": ["twitch"]
       }
     ],
 	"info": false,
