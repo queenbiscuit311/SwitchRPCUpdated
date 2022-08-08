@@ -131,6 +131,11 @@
         "aliases": ["paper mario: the origami king", "paper mario the origami king", "paper mario: origami king", "paper mario origami king", "the origami king", "origami king"]
       },
       {
+        "name": "Super Mario Party",
+        "pic": "supermarioparty",
+        "aliases": ["super mario party"]
+      },
+      {
         "name": "Super Mario 3D All-Stars",
         "pic": "3dallstars",
         "aliases": ["super mario 3d all-stars", "super mario 3d allstars", "super mario 3d all stars", "3d all-stars", "3d allstars", "3d all stars"]
@@ -139,11 +144,6 @@
         "name": "Super Mario 3D World + Bowser's Fury",
         "pic": "3dworld",
         "aliases": ["super mario 3d world + bowser's fury", "super mario 3d world + bowsers fury", "super mario 3d world bowser's fury", "super mario 3d world bowsers fury", "super mario 3d world", "3d world"]
-      },
-      {
-        "name": "Super Mario Party",
-        "pic": "supermarioparty",
-        "aliases": ["super mario party"]
       },
       {
         "name": "The Legend of Zelda: Breath of the Wild",
