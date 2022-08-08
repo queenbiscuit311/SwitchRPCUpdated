@@ -12,8 +12,6 @@ ARMS, Among Us, Animal Crossing: New Horizons, Bayonetta, Bayonetta 2, Celeste, 
 ## Installation
 If you're on windows, download the "switchrpc" folder in the windows client folder and put it in either the program files folder for a global install, or in your %localappdata% folder for a single user install. Then make a shortcut to the switchrpc executable in your desktop/start menu/whatever.
 
-Mac and Linux installers coming soon™.
-
 ### Manual Installation (Useful for Mac and Linux Installs)
 
 *The dollar sign ($) denotes that you're using the command line/a terminal. Don't actually type it. To get to the terminal, open the "Terminal" app or similar (in the Applications/Utilities folder on macOS).*
