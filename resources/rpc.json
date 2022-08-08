@@ -1,0 +1,161 @@
+{
+	"version": 4,
+	"games": ["splatoon 2", "splatoon2", "rocket league", "mario kart 8 deluxe", "mk8d", "super mario odyssey", "odyssey", "mario + rabbids", "mario rabbids", "mario+rabbids", "botw", "zelda botw", "breath of the wild", "zelda breath of the wild", "xenoblade", "xenoblade 2", "xenoblade chronicles 2", "arms", "kirby star allies", "sonic mania", "minecraft", "mario tennis", "mario tennis aces", "fortnite", "pokemon: let's go pikachu!", "pokemon lets go pikachu", "pokemon: let's go eevee!", "pokemon lets go eevee", "overcooked 2", "overcooked", "super smash bros. ultimate", "super smash bros ultimate", "ssbu", "smash ultimate", "super mario maker 2", "mario maker 2", "smm2", "acnh", "ac:nh", "animal crossing", "animal crossing: new horizons", "animal crossing new horizons"],
+	"gameData": [{"name": "Splatoon 2", "pic": "splatoon_2"},
+		     {"name": "Splatoon 2", "pic": "splatoon_2"},
+		     {"name": "Rocket League", "pic": "rocket_league"},
+		     {"name": "Mario Kart 8 Deluxe", "pic": "mk8d"},
+		     {"name": "Mario Kart 8 Deluxe", "pic": "mk8d"},
+		     {"name": "Super Mario Odyssey", "pic": "odyssey"},
+		     {"name": "Super Mario Odyssey", "pic": "odyssey"},
+		     {"name": "Mario + Rabbids Kingdom Battle", "pic": "mariorabbids"},
+		     {"name": "Mario + Rabbids Kingdom Battle", "pic": "mariorabbids"},
+		     {"name": "Mario + Rabbids Kingdom Battle", "pic": "mariorabbids"},
+		     {"name": "Breath of the Wild", "pic": "botw"},
+		     {"name": "Breath of the Wild", "pic": "botw"},
+		     {"name": "Breath of the Wild", "pic": "botw"},
+		     {"name": "Breath of the Wild", "pic": "botw"},
+		     {"name": "Xenoblade Chronicles 2", "pic": "xeno"},
+		     {"name": "Xenoblade Chronicles 2", "pic": "xeno"},
+		     {"name": "Xenoblade Chronicles 2", "pic": "xeno"},
+		     {"name": "ARMS", "pic": "arms"},
+		     {"name": "Kirby Star Allies", "pic": "kirby"},
+		     {"name": "Sonic Mania", "pic": "sonic_mania"},
+		     {"name": "Minecraft", "pic": "minecraft"},
+		     {"name": "Mario Tennis Aces", "pic": "mario_tennis"},
+		     {"name": "Mario Tennis Aces", "pic": "mario_tennis"},
+		     {"name": "Fortnite", "pic": "fortnite"},
+		     {"name": "Pokemon: Let's Go, Pikachu!", "pic": "plg_p"},
+		     {"name": "Pokemon: Let's Go, Pikachu!", "pic": "plg_p"},
+		     {"name": "Pokemon: Let's Go, Eevee!", "pic": "plg_e"},
+		     {"name": "Pokemon: Let's Go, Eevee!", "pic": "plg_e"},
+		     {"name": "Overcooked 2", "pic": "overcooked_2"},
+		     {"name": "Overcooked 2", "pic": "overcooked_2"},
+		     {"name": "Super Smash Bros. Ultimate", "pic": "ssbu"},
+		     {"name": "Super Smash Bros. Ultimate", "pic": "ssbu"},
+		     {"name": "Super Smash Bros. Ultimate", "pic": "ssbu"},
+		     {"name": "Super Smash Bros. Ultimate", "pic": "ssbu"},
+		     {"name": "Super Mario Maker 2", "pic": "smm2"},
+		     {"name": "Super Mario Maker 2", "pic": "smm2"},
+		     {"name": "Super Mario Maker 2", "pic": "smm2"},
+		     {"name": "Animal Crossing: New Horizons", "pic": "acnh"},
+		     {"name": "Animal Crossing: New Horizons", "pic": "acnh"},
+		     {"name": "Animal Crossing: New Horizons", "pic": "acnh"},
+		     {"name": "Animal Crossing: New Horizons", "pic": "acnh"},
+		     {"name": "Animal Crossing: New Horizons", "pic": "acnh"}],
+	"enabled": true,
+	"gameLibrary": [
+      {
+        "name": "Splatoon 2",
+        "pic": "splatoon_2",
+        "aliases": ["splatoon 2", "splatoon2", "splatoon"]
+      },
+      {
+        "name": "Rocket League",
+        "pic": "rocket_league",
+        "aliases": ["rocket league"]
+      },
+      {
+        "name": "Mario Kart 8 Deluxe",
+        "pic": "mk8d",
+        "aliases": ["mario kart 8 deluxe", "mario kart", "mario kart 8", "mk8", "mk8d"]
+      },
+      {
+        "name": "Super Mario Odyssey",
+        "pic": "odyssey",
+        "aliases": ["super mario odyssey", "odyssey", "mario odyssey"]
+      },
+      {
+        "name": "Mario + Rabbids Kingdom Battle",
+        "pic": "mariorabbids",
+        "aliases": ["mario + rabbids", "mario rabbids", "mario + rabbids kingdom battle"]
+      },
+      {
+        "name": "Breath of the Wild",
+        "pic": "botw",
+        "aliases": ["breath of the wild", "zelda botw", "botw"]
+      },
+      {
+        "name": "Xenoblade Chronicles 2",
+        "pic": "xeno",
+        "aliases": ["xenoblade chronicles 2", "xenoblade", "xenoblade 2"]
+      },
+      {
+        "name": "ARMS",
+        "pic": "arms",
+        "aliases": ["arms"]
+      },
+      {
+        "name": "Kirby Star Allies",
+        "pic": "kirby",
+        "aliases": ["kirby star allies", "kirby", "star allies"]
+      },
+      {
+        "name": "Sonic Mania",
+        "pic": "sonic_mania",
+        "aliases": ["sonic mania", "mania"]
+      },
+      {
+        "name": "Minecraft: Bedrock Edition",
+        "pic": "minecraft",
+        "aliases": ["minecraft bedrock", "minecraft bedrock edition", "minecraft"]
+      },
+      {
+        "name": "Mario Tennis Aces",
+        "pic": "mario_tennis",
+        "aliases": ["mario tennis", "mario tennis aces"]
+      },
+      {
+        "name": "Fortnite",
+        "pic": "fortnite",
+        "aliases": ["fortnite"]
+      },
+      {
+        "name": "Pokemon: Let's Go, Pikachu!",
+        "pic": "plg_p",
+        "aliases": ["pokemon: let's go, pikachu!", "pokemon lets go pikachu"]
+      },
+      {
+        "name": "Pokemon: Let's Go, Eevee!",
+        "pic": "plg_e",
+        "aliases": ["pokemon: let's go, eevee!", "pokemon lets go eevee"]
+      },
+      {
+        "name": "Overcooked 2",
+        "pic": "overcooked_2",
+        "aliases": ["overcooked 2", "overcooked"]
+      },
+      {
+        "name": "Super Smash Bros. Ultimate",
+        "pic": "ssbu",
+        "aliases": ["super smash bros. ultimate", "super smash bros ultimate", "smash", "smash ultimate", "ultimate", "ssbu"]
+      },
+      {
+        "name": "Super Mario Maker 2",
+        "pic": "smm2",
+        "aliases": ["super mario maker 2", "mario maker 2", "mario maker", "smm", "smm2"]
+      },
+      {
+        "name": "Animal Crossing: New Horizons",
+        "pic": "acnh",
+        "aliases": ["animal crossing: new horizons", "animal crossing new horizons", "new horizons", "animal crossing"]
+      },
+      {
+        "name": "Pokemon Sword",
+        "pic": "pokemon_sword",
+        "aliases": ["pokemon sword", "sword"]
+      },
+      {
+        "name": "Pokemon Shield",
+        "pic": "pokemon_shield",
+        "aliases": ["pokemon shield", "shield"]
+      },
+      {
+        "name": "Fire Emblem: Three Houses",
+        "pic": "fe_3h",
+        "aliases": ["fire emblem", "three houses", "fire emblem three houses", "fire emblem: three houses"]
+      }
+    ],
+	"info": false,
+	"infoMessage": "testing"
+}
