@@ -1,7 +1,7 @@
 {
-  "name": "switchrpc",
+  "name": "switchrpcupdated",
   "version": "0.9.1",
-  "description": "A Nintendo Switch Discord integration.",
+  "description": "A Nintendo Switch Discord integration, now with an updated game list.",
   "main": "index.js",
   "scripts": {
     "start": "electron index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NintenZone/SwitchRPC.git"
+    "url": "git+https://github.com/queenbiscuit311/SwitchRPCUpdated.git"
   },
-  "author": "NintenZone Technologies",
+  "author": "NintenZone Technologies, forked by queenbiscuit311",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/NintenZone/SwitchRPC/issues"
+    "url": "https://github.com/queenbiscuit311/SwitchRPCUpdated/issues"
   },
-  "homepage": "https://github.com/NintenZone/SwitchRPC#readme",
+  "homepage": "https://github.com/queenbiscuit311/SwitchRPCUpdated#readme",
   "dependencies": {
     "discord-rich-presence": "0.0.8",
     "electron-squirrel-startup": "^1.0.0",
