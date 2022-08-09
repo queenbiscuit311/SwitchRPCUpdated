@@ -18,7 +18,7 @@ Download the "switchrpc" folder in the windows client folder and put it in eithe
 
 1. Download and install [node.js](https://nodejs.org/en/) (either version should work fine)
 2. Clone this repository:  
-`$ git clone https://github.com/queenbiscuit/SwitchRPCUpdated.git` or download and decompress the source code from the [latest release](https://github.com/queenbiscuit311/SwitchRPCUpdated/archive/refs/heads/master.zip). Delete the windows client folder, it will not be needed.
+`$ git clone https://github.com/queenbiscuit/SwitchRPCUpdated.git` or download and decompress the source code from the [latest release](https://github.com/queenbiscuit311/SwitchRPCUpdated/archive/refs/heads/master.zip). Delete the windows client and resources folders, they will not be needed.
 6. CD into the directory you downloaded  
 `$ cd ~/Downloads/SwitchRPCUpdated-master` for example
 291029. Install dependencies  
