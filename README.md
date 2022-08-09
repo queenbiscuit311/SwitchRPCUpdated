@@ -1,7 +1,7 @@
 # SwitchRPCUpdated
 Discord Rich Presence integration for Nintendo Switch.
 SwitchRPC is a Rich Presence application for Discord that allows you to set your game, and some details about it.
-If you have any issues or find any bugs you can get assistance on the [support server.](https://discord.gg/NqG6pN9)
+If you have any issues or find any bugs please create a github issue.
 
 This fork of the original SwitchRPC was made because the original was seemingly abandoned two years ago, leaving only a very small and outdated title list. After figuring out how the app worked and how to modify the title list i decided to make this fork so that the app could be more useful with more, newer titles.
 
@@ -9,10 +9,10 @@ This is the current supported title list in alphabetical order, please let me kn
 
 ARMS, Among Us, Animal Crossing: New Horizons, Bayonetta, Bayonetta 2, Celeste, Cuphead, Donkey Kong Country Tropical Freeze, Fall Guys, Famicom - Nintendo Switch Online, Fire Emblem: Three Houses, Fortnite, Hades, Hollow Knight, Hulu, Hyrule Warriors Definitive Edition, Hyrule Warriors: Age of Calamity, Kirby Star Allies, Kirby and the Forgotten Land, Mario + Rabbids Kingdom Battle, Mario Golf: Super Rush, Mario Kart 8 Deluxe, Mario Party Superstars, Mario Strikers: Battle League Football, Mario Tennis Aces, Metroid Dread, Minecraft: Bedrock Edition, Nintendo 64 - Nintendo Switch Online, Nintendo Entertainment System - NSO, New Pokemon Snap, New Super Mario Bros. U Deluxe, Ninjala, Overcooked 2, Paper Mario: The Origami King, Pokemon Brilliant Diamond, Pokemon Legends: Arceus, Pokemon Shield, Pokemon Shining Pearl, Pokemon Sword, Pokemon UNITE, Pokemon: Let's Go, Eevee!, Pokemon: Let's Go, Pikachu!, Ring Fit Adventure, Rocket League, Sega Mega Drive - Nintendo Switch Online, Super Nintendo Entertainment System - Nintendo Switch Online, Sonic Colours: Ultimate, Sonic Mania, Splatoon 2, Splatoon 3, Stardew Valley, Super Famicom - Nintendo Switch Online, Super Mario 3D All-Stars, Super Mario 3D World + Bowser's Fury, Super Mario Maker 2, Super Mario Odyssey, Super Mario Party, Super Smash Bros. Ultimate, The Legend of Zelda: Breath of the Wild, The Legend of Zelda: Link's Awakening, The Legend of Zelda: Skyward Sword, Twitch, Xenoblade Chronicles 2, Xenoblade Chronicles 3, Xenoblade Chronicles: Definitive Edition, YouTube
 
-## Installation
-If you're on windows, download the "switchrpc" folder in the windows client folder and put it in either the program files folder for a global install, or in your %localappdata% folder for a single user install. Then make a shortcut to the switchrpc executable in your desktop/start menu/whatever.
+## Windows Installation
+Download the "switchrpc" folder in the windows client folder and put it in either the program files folder for a global install, or somewhere within your user folder such as in your %localappdata% folder for a single user install. Then make a shortcut to the switchrpc executable in your desktop/start menu/whatever for easy access.
 
-### Manual Installation (Useful for Mac and Linux Installs)
+### Mac/Linux Installation
 
 *The dollar sign ($) denotes that you're using the command line/a terminal. Don't actually type it. To get to the terminal, open the "Terminal" app or similar (in the Applications/Utilities folder on macOS).*
 
