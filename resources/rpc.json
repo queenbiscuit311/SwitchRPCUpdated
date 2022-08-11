@@ -3,6 +3,7 @@
 	"games": ["splatoon 2", "splatoon2", "rocket league", "mario kart 8 deluxe", "mk8d", "super mario odyssey", "odyssey", "mario + rabbids", "mario rabbids", "mario+rabbids", "botw", "zelda botw", "breath of the wild", "zelda breath of the wild", "xenoblade", "xenoblade 2", "xenoblade chronicles 2", "arms", "kirby star allies", "sonic mania", "minecraft", "mario tennis", "mario tennis aces", "fortnite", "pokemon: let's go pikachu!", "pokemon lets go pikachu", "pokemon: let's go eevee!", "pokemon lets go eevee", "overcooked 2", "overcooked", "super smash bros. ultimate", "super smash bros ultimate", "ssbu", "smash ultimate", "super mario maker 2", "mario maker 2", "smm2", "acnh", "ac:nh", "animal crossing", "animal crossing: new horizons", "animal crossing new horizons"],
 	"gameData": [{"name": "Splatoon 2", "pic": "splatoon_2"},
 		     {"name": "Splatoon 3", "pic": "splatoon_3"},
+         {"name": "Splatoon 3: Splatfest World Premiere", "pic": "splatoon_wp"},
 		     {"name": "Rocket League", "pic": "rocket_league"},
 		     {"name": "Mario Kart 8 Deluxe", "pic": "mk8d"},
 		     {"name": "Super Mario Odyssey", "pic": "odyssey"},
@@ -79,6 +80,11 @@
         "name": "Splatoon 3",
         "pic": "splatoon_3",
         "aliases": ["splatoon 3", "splatoon3", "splatoon"]
+      },
+      {
+        "name": "Splatoon 3: Splatfest World Premiere",
+        "pic": "splatoon_wp",
+        "aliases": ["splatoon 3: splatfest world premiere", "splatoon 3 splatfest world premiere", "splatoon 3 splatfest", "splatoon 3 splatfest wp", "splatoon splatfest wp", "splatoon wp", "splatoon splatfest", "splatfest"]
       },
       {
         "name": "Mario Kart 8 Deluxe",
