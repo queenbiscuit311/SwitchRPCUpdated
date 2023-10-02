@@ -1,4 +1,4 @@
-This project is practically completely obsoleted by the existence of the nxapi project (https://github.com/samuelthomas2774/nxapi).
+This project is practically completely obsoleted by the existence of the nxapi project, but I will still accept game requests if anyone still wants to use this software. Otherwise, check out nxapi over at https://github.com/samuelthomas2774/nxapi.
  
 # SwitchRPCUpdated
 Discord Rich Presence integration for Nintendo Switch.
