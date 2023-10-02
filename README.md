@@ -1,13 +1,13 @@
 This project is practically completely obsoleted by the existence of the nxapi project, but I will still accept game requests via issue if anyone still wants to use this software. Otherwise, check out nxapi over at https://github.com/samuelthomas2774/nxapi.
  
 # SwitchRPCUpdated
+The list of all supported titles is availible in the supportlist.md file.
+
 Discord Rich Presence integration for Nintendo Switch.
 SwitchRPC is a Rich Presence application for Discord that allows you to set your game, and some details about it.
 If you have any issues, find any bugs, or want a title added, please create a github issue.
 
 This fork of the original SwitchRPC was made because the original was seemingly abandoned in 2020, leaving only a very small and outdated title list. After figuring out how the app worked and how to modify the title list, I decided to make this fork so that the app could be more useful by adding more titles. If you would like a title added, please open an issue on this repository with your request.
-
-The list of all supported titles is availible in the supportlist.md file.
 
 Since the file that handles the supported games is hosted on GitHub and not locally, you will not need to update your client when the game list updates. This also applies to the original SwitchRPC, although their game list is not hosted on github. That is presuming they ever update its game list. I thought i should mention it since it's not explicitly stated anywhere unless you look the code.
 
