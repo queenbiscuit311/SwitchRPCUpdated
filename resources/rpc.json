@@ -1,7 +1,10 @@
 {
 	"version": 4,
-	"games": ["splatoon 2", "splatoon2", "rocket league", "mario kart 8 deluxe", "mk8d", "super mario odyssey", "odyssey", "mario + rabbids", "mario rabbids", "mario+rabbids", "botw", "zelda botw", "breath of the wild", "zelda breath of the wild", "xenoblade", "xenoblade 2", "xenoblade chronicles 2", "arms", "kirby star allies", "sonic mania", "minecraft", "mario tennis", "mario tennis aces", "fortnite", "pokemon: let's go pikachu!", "pokemon lets go pikachu", "pokemon: let's go eevee!", "pokemon lets go eevee", "overcooked 2", "overcooked", "super smash bros. ultimate", "super smash bros ultimate", "ssbu", "smash ultimate", "super mario maker 2", "mario maker 2", "smm2", "acnh", "ac:nh", "animal crossing", "animal crossing: new horizons", "animal crossing new horizons"],
+	"games": ["splatoon 2", "splatoon2", "rocket league", "mario kart 8 deluxe", "mk8d", "super mario odyssey", "odyssey", "mario + rabbids", "mario rabbids", "mario+rabbids", "botw", "zelda botw", "breath of the wild", "zelda breath of the wild", "the legend of zelda: breath of the wild", "the legend of zelda breath of the wild", "xenoblade", "xenoblade 2", "xenoblade chronicles 2", "arms", "kirby star allies", "sonic mania", "minecraft", "mario tennis", "mario tennis aces", "fortnite", "pokemon: let's go pikachu!", "pokemon lets go pikachu", "pokemon: let's go eevee!", "pokemon lets go eevee", "overcooked 2", "overcooked", "super smash bros. ultimate", "super smash bros ultimate", "ssbu", "smash ultimate", "super mario maker 2", "mario maker 2", "smm2", "acnh", "ac:nh", "animal crossing", "animal crossing: new horizons", "animal crossing new horizons", "monster prom xxl", "monster prom", "monsterprom", "monster camp xxl", "monster camp", "monstercamp", "totk", "zelda totk", "tears of the kingdom", "zelda tears of the kingdom", "the legend of zelda: tears of the kingdom", "the legend of zelda tears of the kingdom"],
 	"gameData": [{"name": "Splatoon 2", "pic": "splatoon_2"},
+		     {"name": "The Legend of Zelda: Tears of the Kingdom", "pic": "totk"},
+		     {"name": "Monster Prom XXL", "pic": "monster_prom"},
+	             {"name": "Monster Camp XXL", "pic": "monster_camp"},
 		     {"name": "Splatoon 3", "pic": "splatoon_3"},
          {"name": "Splatoon 3: Splatfest World Premiere", "pic": "splatoon_wp"},
 		     {"name": "Rocket League", "pic": "rocket_league"},
@@ -400,6 +403,22 @@
         "name": "Twitch",
         "pic": "twitch",
         "aliases": ["twitch"]
+      },
+      {
+	"name": "The Legend of Zelda: Tears of the Kingdom",
+        "pic": "totk",
+        "aliases": ["totk", "zelda totk", "tears of the kingdom", "zelda tears of the kingdom", "the legend of zelda: tears of the kingdom", "the legend of zelda tears of the kingdom"]
+      },
+	
+      {
+	"name": "Monster Prom XXL",
+	"pic": "monster_prom",
+	"aliases": ["monster prom xxl", "monster prom", "monsterprom"]
+      },
+      {
+	"name": "Monster Camp XXL",
+	"pic": "monster_camp",
+	"aliases": ["monster camp xxl", "monster camp", "monstercamp"]
       }
     ],
 	"info": false,
