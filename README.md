@@ -42,8 +42,10 @@ electron "${0%/*}"
 Press the key combo Control + D at this point, and your terminal should return to a normal prompt. Run this final command:  
 `$ chmod +x run.sh`
 
-Then, if you're on macOS, right click on the new "run.sh" file created, choose "Get Info", and change "Opens With" to Terminal. (You will need to select Other, Terminal is in the Utilities folder, and change from Recommended Applications to All Applications at the bottom of the GUI shown.)
+You can then run ./run.sh in the same directory as the file to run the program.
 
-And you should now be able to open "run.sh" like a regular file to open the app. You can drag this script to the second half of your dock on macOS (and rename it to your liking).
+If you're on macOS and would like to execute the run.sh file from Finder, right click on the new "run.sh" file created, choose "Get Info", and change "Opens With" to Terminal. (You will need to select Other, Terminal is in the Utilities folder, and change from Recommended Applications to All Applications at the bottom of the GUI shown.)
+
+And you should now be able to open "run.sh" like a regular file to open the app. If you are using macOS and would like to pin this program to the dock, you can drag this script to the second half of your dock on macOS (and rename it to your liking).
 
 ## Copyright 2018-2021 NintenZone Technologies. Nintendo Switch, and the Nintendo Switch logos are property of Nintendo.
