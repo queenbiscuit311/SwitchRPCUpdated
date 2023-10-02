@@ -35,16 +35,16 @@ Debian based distributions (APT) [Debian, Ubuntu, Linux Mint]: `sudo apt install
 Gentoo based distributions (Portage) [Gentoo, Redcore] `emerge nodejs`
 Void based distributions (XBPS) `sudo xbps-install nodejs` (Void repos have an out of date version of node.js. It shouldn't matter for this app, but newer versions are availible using [nvm (https://github.com/nvm-sh/nvm#installing-and-updating) or [homebrew](https://brew.sh) via `brew install node`].)
    
-4. Clone this repository:  
+2. Clone this repository:  
 `$ git clone https://github.com/queenbiscuit/SwitchRPCUpdated.git` or download and decompress the source code from the [latest release](https://github.com/queenbiscuit311/SwitchRPCUpdated/archive/refs/heads/master.zip). Delete the windows client and resources folders, they will not be needed.
-6. CD into the directory you downloaded  
+3. CD into the directory you downloaded  
 `$ cd ~/Downloads/SwitchRPCUpdated-master` for example
-291029. Install dependencies  
+4. Install dependencies  
 `$ npm install`
-83. Install electron globally, if not already installed  
+5. Install electron globally, if not already installed  
 `$ sudo npm install electron -g`  
 *Note: This will prompt for a password. This is your computer login password, and it won't show up while you type. Type it in and press enter. This is necessary to install the "Electron" app that SwitchRPC runs on.*
-69. Run the app!  
+6. Run the app!  
 `$ electron .`
 
 You may find it useful to create a script to run the app in the future. To do so, type the following in your terminal:
