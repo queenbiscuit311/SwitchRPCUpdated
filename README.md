@@ -1,3 +1,5 @@
+This project is practically completely obsoleted by the existence of the nxapi project (https://github.com/samuelthomas2774/nxapi).
+ 
 # SwitchRPCUpdated
 Discord Rich Presence integration for Nintendo Switch.
 SwitchRPC is a Rich Presence application for Discord that allows you to set your game, and some details about it.
