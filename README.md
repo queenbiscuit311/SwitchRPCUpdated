@@ -27,8 +27,8 @@ For those unfamiliar with traditional terminal shell syntax: The dollar sign ($)
  The required dependencies can alternatively (and more easily) be installed through the terminal.
  On macOS you can use [homebrew](https://brew.sh) by running `brew install node` and `brew install git`
  
- On Linux you can use your distribution's package manager. You probably already have git, so here are are some examples on how to install nodejs    on some distros:
-
+ On Linux you can use your distribution's package manager. You probably already have git, so here are are some examples on how to install nodejs   on some distros:
+ 
  Arch based distributions (Pacman) [Arch, Manjaro, EndeavorOS]: `sudo pacman -S nodejs npm`
  Fedora/RHEL based distributions (DNF) [Fedora, Nobara, Rocky Linux, Alma Linux]: `sudo dnf module install nodejs`
  Debian based distributions (APT) [Debian, Ubuntu, Linux Mint]: `sudo apt install nodejs npm`
