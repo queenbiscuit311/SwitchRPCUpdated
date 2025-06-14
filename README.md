@@ -1,7 +1,3 @@
-~~This project is practically completely obsoleted by the existence of the [nxapi](https://github.com/samuelthomas2774/nxapi) project, but I will still accept game requests via issue if anyone still wants to use this software. Otherwise, check out nxapi over at https://github.com/samuelthomas2774/nxapi.~~
-
-Nxapi is currently broken, and likely will be for a while longer. Even if it's fixed, there's no guarantee that it will remain functional consistently. Due to this, this project will now become active again, as it is the only other way that I am aware of to have rich presence for the Switch/Switch 2. If anyone wants to use this and has a game that they'd like added to the supported games list, please don't hesitate to request one in the issues section.
- 
 # SwitchRPCUpdated
 
 ### The simplest possible Nintendo Switch/Switch 2 Discord integration, now with an updated game list.
