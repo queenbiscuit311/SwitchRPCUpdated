@@ -13,7 +13,7 @@ This fork of the original SwitchRPC was made because the original was seemingly 
 
 Since the file that handles the supported games is hosted on GitHub and not locally, you will not need to update your client when the game list updates. This also applies to the original SwitchRPC, although their game list is not hosted on github (although it seems unlikely that the original will ever be updated.
 
-**TODO:** Switch 2 Support
+**TODO:** Switch 2 Support, Make Games list searchable
 
 ## Installation
 
