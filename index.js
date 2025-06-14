@@ -18,7 +18,7 @@ app.commandLine.appendSwitch('disable-seccomp-filter-sandbox')
 function createWindow() {
     mainWindow = new BrowserWindow({
         width: 900,
-        height: 600,
+        height: 700,
         frame: false,
         webPreferences: {
             nodeIntegration: true
