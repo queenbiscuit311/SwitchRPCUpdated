@@ -69,13 +69,19 @@ Before building, ensure that `nodejs` and `npm` are installed through your packa
    [Chocolatey](https://chocolatey.org/install) Package Manager: `choco install nodejs`
    
 Additionally, ensure that `electron-builder` and `electron-packager` are installed through npm:
+
+   Linux/macOS:
    
    `sudo npm install electron-builder electron-packager -g`
+
+   Windows:
+
+   `npm install electron-builder electron-packager -g`
    
-3. Clone this repository:  
+1. Clone this repository:  
 `git clone https://github.com/queenbiscuit311/SwitchRPCUpdated.git` 
-4. CD into the directory you downloaded  
-`cd ~/Downloads/SwitchRPCUpdated-master` for example
+2. CD into the directory 
+E.g. `cd SwitchRPCUpdated-master`
 5. Install dependencies  
 `npm install`
 6. Build
