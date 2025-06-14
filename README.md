@@ -24,7 +24,7 @@ Windows: The program is portable, so you can put it in either the Program Files 
 
 ## Building from source:
 
-###Prerequesites:
+### Prerequesites:
 
 Before building, ensure that `nodejs` and `npm` are installed through your package manager. Instructions for the most common distributions are provided below:
    
