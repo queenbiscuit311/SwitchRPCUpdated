@@ -41,7 +41,7 @@ For those unfamiliar with traditional terminal shell syntax: The dollar sign ($)
    Void based distributions (XBPS) `sudo xbps-install nodejs` (Void repos have an out of date version of node.js. It shouldn't matter for this app, but newer versions are availible using [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) or [homebrew](https://brew.sh) via `brew install node`.)
    
 3. Clone this repository:  
-`$ git clone https://github.com/queenbiscuit/SwitchRPCUpdated.git` or download and decompress the source code from the [latest release](https://github.com/queenbiscuit311/SwitchRPCUpdated/archive/refs/heads/master.zip). Delete the windows client and resources folders, they will not be needed.
+`$ git clone https://github.com/queenbiscuit311/SwitchRPCUpdated.git` or download and decompress the source code from the [latest release](https://github.com/queenbiscuit311/SwitchRPCUpdated/archive/refs/heads/master.zip). Delete the windows client and resources folders, they will not be needed.
 4. CD into the directory you downloaded  
 `$ cd ~/Downloads/SwitchRPCUpdated-master` for example
 5. Install dependencies  
