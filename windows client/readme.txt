@@ -1,1 +1,0 @@
-Put this somewhere like C:\Users\[user]\AppData\Local or C:\Program Files then make a shortcut for it.
