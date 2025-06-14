@@ -13,44 +13,59 @@ This fork of the original SwitchRPC was made because the original was seemingly 
 
 Since the file that handles the supported games is hosted on GitHub and not locally, you will not need to update your client when the game list updates. This also applies to the original SwitchRPC, although their game list is not hosted on github (although it seems unlikely that the original will ever be updated.
 
-## Windows Installation
-Download the windows client from the releases section. The program is portable, so you can put it in either the program files folder for a global install, or somewhere within your user folder such as in your %localappdata% folder for a single user install. Then make a shortcut to the switchrpc executable in your desktop/start menu/whatever for easy access. You can also install directly from the repository by using the files in the "windows client" folder.
+**TODO:** Switch 2 Support
 
-## Mac/Linux Installation
+## Installation
+Windows and Linux builds are provided in releases. Mac ARM builds should be coming soon.
+Download the  client from the releases section. 
+Linux: Application is availible as AppImage. It can be managed by manually placing it somewhere or using AppImage Launcher.
 
-Installation on Mac/Linux requires using the terminal. Fortunately, if you are not experienced with using a terminal it's not too difficult to get this application set up.
+Windows: The program is portable, so you can put it in either the Program Files folder for a global install, or somewhere within your user folder such as in your %localappdata% folder for a single user install. You can then make a shortcut to the SwitchRPC executable in your desktop/start menu/whatever for easy access. 
 
-For those unfamiliar with traditional terminal shell syntax: The dollar sign ($) denotes that you're using the command line/a terminal. Don't actually type it. To get to the terminal, open the "Terminal" app or similar (in the Applications/Utilities folder on macOS or an application such as Konsole or Gnome Console on Linux).
+## Building from source:
 
-1. Download and install [node.js](https://nodejs.org/en/) (either version should work fine) and [git](https://git-scm.com/downloads) if you dont have them installed already.
+###Prerequesites:
 
-   The required dependencies can alternatively (and more easily) be installed through the terminal.
+Before building, ensure that `nodejs` and `npm` are installed through your package manager. Instructions for the most common distributions are provided below:
+   
+   Linux:
+   
+   Arch Linux and related distributions [Manjaro, EndeavourOS] (Pacman): `sudo pacman -S nodejs npm`
 
-   On macOS you can use [homebrew](https://brew.sh) by running `brew install node` and `brew install git`
+   Fedora/RHEL and related distributions [Nobara, Rocky Linux, Alma Linux] (DNF): `sudo dnf module install nodejs`
 
-   On Linux you can use your distribution's package manager. You probably already have git, so here are are some examples on how to install nodejs on most distros:
+   Debian and related distributions [Ubuntu, Linux Mint] (APT): `sudo apt install nodejs npm`
 
-   Arch based distributions (Pacman) [Arch, Manjaro, EndeavorOS]: `sudo pacman -S nodejs npm`
+   Gentoo Linux (Portage): `emerge nodejs`
 
-   Fedora/RHEL based distributions (DNF) [Fedora, Nobara, Rocky Linux, Alma Linux]: `sudo dnf module install nodejs`
-
-   Debian based distributions (APT) [Debian, Ubuntu, Linux Mint]: `sudo apt install nodejs npm`
-
-   Gentoo based distributions (Portage) [Gentoo, Redcore] `emerge nodejs`
-
-   Void based distributions (XBPS) `sudo xbps-install nodejs` (Void repos have an out of date version of node.js. It shouldn't matter for this app, but newer versions are availible using [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) or [homebrew](https://brew.sh) via `brew install node`.)
+   Void Linux (XBPS): `sudo xbps-install nodejs`
+   
+   macOS:
+   
+   [Brew](brew.sh) Package Manager: `brew install node`
+   
+   Windows:
+   
+   Option 1:
+   Instructions to install node.js and npm are provided by Microsoft [here](https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows_).
+   
+   Option 2:
+   [Chocolatey](https://chocolatey.org/install) Package Manager: `choco install nodejs`
+   
+Additionally, ensure that `electron-builder` and `electron-packager` are installed through npm:
+   
+   `sudo npm install electron-builder electron-packager -g`
    
 3. Clone this repository:  
-`$ git clone https://github.com/queenbiscuit311/SwitchRPCUpdated.git` or download and decompress the source code from the [latest release](https://github.com/queenbiscuit311/SwitchRPCUpdated/archive/refs/heads/master.zip). Delete the windows client and resources folders, they will not be needed.
+`git clone https://github.com/queenbiscuit311/SwitchRPCUpdated.git` 
 4. CD into the directory you downloaded  
-`$ cd ~/Downloads/SwitchRPCUpdated-master` for example
+`cd ~/Downloads/SwitchRPCUpdated-master` for example
 5. Install dependencies  
-`$ npm install`
-6. Install electron globally, if not already installed  
-`$ sudo npm install electron -g`  
-*Note: This will prompt for a password. This is your computer login password, and it won't show up while you type. Type it in and press enter. This is necessary to install the "Electron" app that SwitchRPC runs on.*
-7. Run the app!  
-`$ electron .`
+`npm install`
+6. Build
+`electron-builder`
+7. Done! Your compiled binaries will be in the `dist` folder.
+
 
 You may find it useful to create a script to run the app in the future. To do so, type the following in your terminal:
 ```bash

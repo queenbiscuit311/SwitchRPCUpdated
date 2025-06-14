@@ -12,6 +12,9 @@ const path = require('path');
 let mainWindow;
 let data;
 
+//fix for linux
+app.commandLine.appendSwitch('disable-seccomp-filter-sandbox')
+
 function createWindow() {
     mainWindow = new BrowserWindow({
         width: 900,
@@ -94,7 +97,8 @@ ipcMain.on("away", function() {
 function findGame() {
     let gotGame = name;
     let pic = "switch";
-    if (!name || !desc) return;
+    if (!name) return;
+    if (!name && !desc) return;
     data.gameLibrary.forEach(function(game) {
         game.aliases.forEach(function(alias) {
             if (alias === name.toLowerCase()) {
@@ -108,6 +112,9 @@ function findGame() {
 }
 
 function setPresence(game, desc, pic, status) {
+    if (desc.length < 2) {
+        desc = 'Online'
+    }
     rpc.updatePresence({
         state: desc,
         details: game,

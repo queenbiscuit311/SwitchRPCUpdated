@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron index.js",
     "package": "",
-    "build": "electron-packager . SwitchRPC --overwrite --icon=assets/icons/icon.ico --out=dist/win"
+    "build": "electron-packager . SwitchRPC --overwrite --icon=assets/icons/icon.ico --out=dist --electronVersion 8.2.0"
   },
   "repository": {
     "type": "git",
