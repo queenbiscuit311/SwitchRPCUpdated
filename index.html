@@ -178,25 +178,19 @@
     const electron = require('electron');
 	const {ipcRenderer, ipcMain} = electron;
 
-    const x = document.getElementById("x");
-    const max = document.getElementById("max");
-    const min = document.getElementById("min");
+    const x = document.getElementById('x');
+    const max = document.getElementById('max');
+    const min = document.getElementById('min');
 
-    x.addEventListener('click', sendX);
-    max.addEventListener('click', sendMax);
-    min.addEventListener('click', sendMin);
-
-    function sendX(e) {
+    x.addEventListener('click', function (e) {
         ipcRenderer.send('x');
-    }
-
-    function sendMax(e) {
+    });
+    max.addEventListener('click', function (e) {
         ipcRenderer.send('max');
-    }
-
-    function sendMin(e) {
+    });
+    min.addEventListener('click', function (e) {
         ipcRenderer.send('min');
-    }
+    });
 	
     const form = document.querySelector('form');
     form.addEventListener('submit', submitForm);
@@ -213,13 +207,13 @@
         return str.replace(/[^a-zA-Z0-9 ]/g, '');
     }
 	
-	document.addEventListener("DOMContentLoaded", function() {
+	document.addEventListener('DOMContentLoaded', function() {
 		ipcRenderer.send('getGameData');
 
 		ipcRenderer.on('sendingGameData', function(e, data) {
             data.forEach(function(game) {
                 let clean_game = noSpecialCharacters(game);
-                document.getElementById("title-container").innerHTML += `<h4 id='${clean_game}'>${game}</h4>`;
+                document.getElementById('title-container').innerHTML += `<h4 id='${clean_game}'>${game}</h4>`;
             })
             
             data.forEach(function(game) {

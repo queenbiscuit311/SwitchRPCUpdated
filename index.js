@@ -4,7 +4,7 @@ let version = 4;
 
 //dependencies
 const rpc = require('discord-rich-presence')('1006157577459081296');
-const request = require('request');
+const axios = require('axios');
 const { app, BrowserWindow, ipcMain } = require('electron');
 const url = require('url');
 const path = require('path');
@@ -27,16 +27,16 @@ function createWindow() {
 
     mainWindow.setMenu(null);
 
-    request('https://raw.githubusercontent.com/queenbiscuit311/SwitchRPCUpdated/master/resources/rpc.json', function(err, res, body) {
-        if (err || !body) {
+    axios.get('https://raw.githubusercontent.com/queenbiscuit311/SwitchRPCUpdated/master/resources/rpc.json').then((res, err) => {
+        if (err || !res.data) {
             mainWindow.loadFile('no-server.html');
         }
         try {
-            data = JSON.parse(body);
-            mainWindow.loadFile('index.html')
+            data = res.data;
+            mainWindow.loadFile('index.html');
         }
         catch(e) {
-            mainWindow.loadFile('error.html')
+            mainWindow.loadFile('error.html');
         }
     });
 }
@@ -83,20 +83,20 @@ ipcMain.on('desc:value', function (e, value) {
    findGame();
 });
 
-let status = "online";
-ipcMain.on("online", function() {
-    status = "online";
+let status = 'online';
+ipcMain.on('online', function() {
+    status = 'online';
     findGame();
 });
-ipcMain.on("away", function() {
-    status = "away";
+ipcMain.on('away', function() {
+    status = 'away';
     findGame();
 });
 
 //RPC
 function findGame() {
     let gotGame = name;
-    let pic = "switch";
+    let pic = 'switch';
     if (!name) return;
     data.gameLibrary.forEach(function(game) {
         game.aliases.forEach(function(alias) {
