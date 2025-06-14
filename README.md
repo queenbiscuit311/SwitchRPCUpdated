@@ -18,6 +18,7 @@ Since the file that handles the supported games is hosted on GitHub and not loca
 ## Installation
 Windows and Linux builds are provided in releases. Mac ARM builds should be coming soon.
 Download the  client from the releases section. 
+
 Linux: Application is availible as AppImage. It can be managed by manually placing it somewhere or using AppImage Launcher.
 
 Windows: The program is portable, so you can put it in either the Program Files folder for a global install, or somewhere within your user folder such as in your %localappdata% folder for a single user install. You can then make a shortcut to the SwitchRPC executable in your desktop/start menu/whatever for easy access. 
