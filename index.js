@@ -98,7 +98,6 @@ function findGame() {
     let gotGame = name;
     let pic = "switch";
     if (!name) return;
-    if (!name && !desc) return;
     data.gameLibrary.forEach(function(game) {
         game.aliases.forEach(function(alias) {
             if (alias === name.toLowerCase()) {
