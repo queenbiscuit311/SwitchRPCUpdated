@@ -1,18 +1,18 @@
 {
-  "name": "switchrpcupdated",
+  "name": "SwitchRPCUpdated",
   "version": "0.9.1",
-  "description": "A Nintendo Switch Discord integration, now with an updated game list.",
+  "description": "A Nintendo Switch (2) Discord integration, now with an updated game list.",
   "main": "index.js",
   "scripts": {
     "start": "electron index.js",
     "package": "",
-    "build": "electron-packager . SwitchRPC --overwrite --icon=assets/icons/icon.ico --out=dist --electronVersion 8.2.0"
+    "build": "electron-packager . SwitchRPCUpdated --overwrite --icon=build/icon.ico --out=dist --electronVersion 8.2.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/queenbiscuit311/SwitchRPCUpdated.git"
   },
-  "author": "NintenZone Technologies, forked by queenbiscuit311",
+  "author": "NintenZone Technologies, queenbiscuit311",
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/queenbiscuit311/SwitchRPCUpdated/issues"
