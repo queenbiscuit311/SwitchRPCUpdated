@@ -1,19 +1,26 @@
-~~This project is practically completely obsoleted by the existence of the nxapi project, but I will still accept game requests via issue if anyone still wants to use this software. Otherwise, check out nxapi over at https://github.com/samuelthomas2774/nxapi.~~
+~~This project is practically completely obsoleted by the existence of the [nxapi](https://github.com/samuelthomas2774/nxapi) project, but I will still accept game requests via issue if anyone still wants to use this software. Otherwise, check out nxapi over at https://github.com/samuelthomas2774/nxapi.~~
 
-Nxapi is currently broken, and likely will be for a while longer. This project will now become active again, as it is the only other way that I am aware of to have rich presence for the switch. If anyone wants to use this and add a new game, please don't hesitate to request one.
+Nxapi is currently broken, and likely will be for a while longer. Even if it's fixed, there's no guarantee that it will remain functional consistently. Due to this, this project will now become active again, as it is the only other way that I am aware of to have rich presence for the Switch/Switch 2. If anyone wants to use this and has a game that they'd like added to the supported games list, please don't hesitate to request one in the issues section.
  
 # SwitchRPCUpdated
+
+### The simplest possible Nintendo Switch/Switch 2 Discord integration, now with an updated game list.
+
 The list of all supported titles is availible in the [supportlist.md](https://github.com/queenbiscuit311/SwitchRPCUpdated/blob/master/supportlist.md) file.
 
-Discord Rich Presence integration for Nintendo Switch and Nintendo Switch 2.
-SwitchRPC is a Rich Presence application for Discord that allows you to set your game, and some details about it.
-If you have any issues, find any bugs, or want a title added, please create a github issue.
+Entering a title that is not in the support list will still work, although the game's icon will not show up on Discord.
 
-This fork of the original SwitchRPC was made because the original was seemingly abandoned in 2020, leaving only a very small and outdated title list. After figuring out how the app worked and how to modify the title list, I decided to make this fork so that the app could be more useful by adding more titles. If you would like a title added, please open an issue on this repository with your request.
+Since the file that handles the supported games is hosted on GitHub and the images for the Rich Presence are stored on Discord Developer, you will not need to update your client when the game list updates; simply restart the application.
 
-Since the file that handles the supported games is hosted on GitHub and not locally, you will not need to update your client when the game list updates. This also applies to the original SwitchRPC, although their game list is not hosted on github (although it seems unlikely that the original will ever be updated.
+**Explanation:**
 
-**TODO:** Switch 2 Support, Make Games list searchable
+SwitchRPCUpdated is the simplest possible implementation of Discord Rich Presence for the Nintendo Switch/Switch 2. Instead of directly interfacing with Nintendo's server's like [nxapi](https://github.com/samuelthomas2774/nxapi), SwitchRPCUpdated has you manually set your Rich Presence by setting a game and a description. While not automatic, this method is reliable and is not going to break when Nintendo updates their API's, unlike nxapi. This project is mainly intended as a backup in case nxapi stops working, but it can also be used in its own right.
+
+**Why a fork?**
+
+This fork of the original SwitchRPC was made because it was seemingly abandoned in 2020, leaving only a very small and outdated title list. The supported title list for the original was also hosted remotely on the developer's server, making it impossible to update it manually. I would normally be way out of my depth programming something like this from scratch, but fortunately the codebase for SwitchRPC is very small and easy to understand, so I was able to create a fork without much issue. After figuring out how the app worked and how to modify the title list, I decided to make this fork so that the app could be more useful by adding more titles.
+
+**WIP:** Switch 2 Support, Make Games list searchable
 
 ## Installation
 
