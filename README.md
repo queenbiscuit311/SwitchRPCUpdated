@@ -40,7 +40,7 @@ macOS ARM Builds coming soon.
 
 ### Prerequisites:
 
-Before building, ensure that `nodejs` and `npm` are installed through your package manager. Instructions for Linux, macOS, and Windows are provided below:
+Before building, ensure that `nodejs` and `npm` are installed on your device. Instructions for Linux, macOS, and Windows are provided below:
    
    **Linux:**
    
