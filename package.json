@@ -1,6 +1,6 @@
 {
   "name": "SwitchRPCUpdated",
-  "version": "0.9.1",
+  "version": "1.1.0",
   "description": "A Nintendo Switch (2) Discord integration, now with an updated game list.",
   "main": "index.js",
   "scripts": {
