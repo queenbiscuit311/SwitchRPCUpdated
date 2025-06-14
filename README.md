@@ -88,6 +88,6 @@ Additionally, ensure that `electron-builder` and `electron-packager` are install
 `electron-builder`
 7. Done! Your compiled binaries will be in the `dist` folder.
 
-## Copyright Acknowledgement
+## Copyright Acknowledgements
 
 ### Copyright 2018-2021 NintenZone Technologies. Nintendo Switch, Nintendo Switch 2, the Nintendo Switch logos, and Nintendo Switch 2 logos are property of Nintendo.
