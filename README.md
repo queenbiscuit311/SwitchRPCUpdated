@@ -38,7 +38,7 @@ macOS ARM Builds coming soon.
 
 ## Building from source:
 
-### Prerequesites:
+### Prerequisites:
 
 Before building, ensure that `nodejs` and `npm` are installed through your package manager. Instructions for Linux, macOS, and Windows are provided below:
    
