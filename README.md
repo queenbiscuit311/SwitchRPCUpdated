@@ -1,6 +1,6 @@
 ~~This project is practically completely obsoleted by the existence of the nxapi project, but I will still accept game requests via issue if anyone still wants to use this software. Otherwise, check out nxapi over at https://github.com/samuelthomas2774/nxapi.~~
 
-Nxapi is currently broken, and likely will be for a while longer. This project will stay active, as it is the only other way that I am aware of to have rich presence for the switch. If anyone wants to use this and add a new game, please don't hesitate to request one.
+Nxapi is currently broken, and likely will be for a while longer. This project will now become active again, as it is the only other way that I am aware of to have rich presence for the switch. If anyone wants to use this and add a new game, please don't hesitate to request one.
  
 # SwitchRPCUpdated
 The list of all supported titles is availible in the [supportlist.md](https://github.com/queenbiscuit311/SwitchRPCUpdated/blob/master/supportlist.md) file.
