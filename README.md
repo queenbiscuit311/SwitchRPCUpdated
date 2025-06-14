@@ -76,13 +76,13 @@ Additionally, ensure that `electron-builder` and `electron-packager` are install
 
    `npm install electron-builder electron-packager -g`
    
-1. Clone this repository:  
+1. Clone this repository:   
 `git clone https://github.com/queenbiscuit311/SwitchRPCUpdated.git` 
-2. CD into the directory 
-E.g. `cd SwitchRPCUpdated-master`
-5. Install dependencies  
+2. CD into the directory:   
+`cd SwitchRPCUpdated-master`
+5. Install dependencies:   
 `npm install`
-6. Build
+6. Build:   
 `electron-builder`
 7. Done! Your compiled binaries will be in the `dist` folder.
 
