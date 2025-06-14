@@ -58,7 +58,7 @@ Before building, ensure that `nodejs` and `npm` are installed through your packa
    
    **macOS:**
    
-   [Brew](brew.sh) Package Manager: `brew install node`
+   [Brew](https://brew.sh) Package Manager: `brew install node`
    
    **Windows:**
    
