@@ -16,7 +16,7 @@ Since the file that handles the supported games is hosted on GitHub and not loca
 ## Windows Installation
 Download the windows client from the releases section. The program is portable, so you can put it in either the program files folder for a global install, or somewhere within your user folder such as in your %localappdata% folder for a single user install. Then make a shortcut to the switchrpc executable in your desktop/start menu/whatever for easy access. You can also install directly from the repository by using the files in the "windows client" folder.
 
-### Mac/Linux Installation
+## Mac/Linux Installation
 
 Installation on Mac/Linux requires using the terminal. Fortunately, if you are not experienced with using a terminal it's not too difficult to get this application set up.
 
