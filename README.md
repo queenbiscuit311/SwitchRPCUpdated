@@ -66,15 +66,15 @@ Before building, ensure that `nodejs` and `npm` are installed on your device. In
    Option 2:
    [Chocolatey](https://chocolatey.org/install) Package Manager: `choco install nodejs`
    
-Additionally, ensure that `electron-builder` and `electron-packager` are installed through npm:
+Additionally, ensure that `electron-builder` and `@electron/packager` are installed through npm:
 
    Linux/macOS:
    
-   `sudo npm install electron-builder electron-packager -g`
+   `sudo npm install electron-builder @electron/packager -g`
 
    Windows:
 
-   `npm install electron-builder electron-packager -g`
+   `npm install electron-builder @electron/packager -g`
 
 ### Building
 
