@@ -75,11 +75,13 @@ Additionally, ensure that `electron-builder` and `electron-packager` are install
    Windows:
 
    `npm install electron-builder electron-packager -g`
-   
+
+### Building
+
 1. Clone this repository:   
 `git clone https://github.com/queenbiscuit311/SwitchRPCUpdated.git` 
-2. CD into the directory:   
-`cd SwitchRPCUpdated-master`
+2. Enter the directory:   
+`cd SwitchRPCUpdated`
 5. Install dependencies:   
 `npm install`
 6. Build:   
