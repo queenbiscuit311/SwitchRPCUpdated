@@ -42,7 +42,7 @@ Builds are availible in the releases section.
 
 ### Prerequesites:
 
-Before building, ensure that `nodejs` and `npm` are installed through your package manager. Instructions for the most common distributions are provided below:
+Before building, ensure that `nodejs` and `npm` are installed through your package manager. Instructions for Linux, macOS, and Windows are provided below:
    
    **Linux:**
    
