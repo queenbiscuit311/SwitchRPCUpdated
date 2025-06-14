@@ -34,6 +34,8 @@ Windows (Portable), Windows (Installer), Linux (AppImage), Linux (Snap)
 
 Builds are availible in the releases section.
 
+macOS ARM Builds coming soon.
+
 ## Building from source:
 
 ### Prerequesites:
