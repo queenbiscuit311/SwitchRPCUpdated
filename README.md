@@ -8,11 +8,13 @@ Entering a title that is not in the support list will still work, although the g
 
 Since the file that handles the supported games is hosted on GitHub and the images for the Rich Presence are stored on Discord Developer, you will not need to update your client when the game list updates; simply restart the application.
 
-**Explanation:**
+## 
+
+### Explanation:
 
 SwitchRPCUpdated is the simplest possible implementation of Discord Rich Presence for the Nintendo Switch/Switch 2. Instead of directly interfacing with Nintendo's server's like [nxapi](https://github.com/samuelthomas2774/nxapi), SwitchRPCUpdated has you manually set your Rich Presence by setting a game and a description. While not automatic, this method is reliable and is not going to break when Nintendo updates their API's, unlike nxapi. This project is mainly intended as a backup in case nxapi stops working, but it can also be used in its own right.
 
-**Why a fork?**
+### Why a fork?
 
 This fork of the original SwitchRPC was made because it was seemingly abandoned in 2020, leaving only a very small and outdated title list. The supported title list for the original was also hosted remotely on the developer's server, making it impossible to update it manually. I would normally be way out of my depth programming something like this from scratch, but fortunately the codebase for SwitchRPC is very small and easy to understand, so I was able to create a fork without much issue. After figuring out how the app worked and how to modify the title list, I decided to make this fork so that the app could be more useful by adding more titles.
 
