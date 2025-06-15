@@ -46,7 +46,7 @@
 		     {"name": "Yoshi's Crafted World", "pic": "yoshicrafted"},
 		     {"name": "Hyrule Warriors Definitive Edition", "pic": "hyrule_warriors"},
 		     {"name": "Hyrule Warriors: Age of Calamity", "pic": "hyrule_aoc"},
-		     {"name": "Donkey Kong Country Tropical Freeze", "pic": "dkctf"},
+		     {"name": "Donkey Kong Country: Tropical Freeze", "pic": "dkctf"},
 		     {"name": "Stardew Valley", "pic": "stardew"},
 		     {"name": "Celeste", "pic": "celeste"},
 		     {"name": "Mario Golf: Super Rush", "pic": "super_rush"},
@@ -340,9 +340,9 @@
         "aliases": ["bayonetta 2"]
       },
       {
-        "name": "Donkey Kong Country Tropical Freeze",
+        "name": "Donkey Kong Country: Tropical Freeze",
         "pic": "dkctf",
-        "aliases": ["donkey kong country tropical freeze", "tropical freeze"]
+        "aliases": ["donkey kong country tropical freeze", "donkey kong country: tropical freeze", "tropical freeze"]
       },
       {
         "name": "New Pokemon Snap",
