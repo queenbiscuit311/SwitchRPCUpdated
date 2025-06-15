@@ -83,16 +83,6 @@ ipcMain.on('desc:value', function (e, value) {
    findGame();
 });
 
-let status = 'online';
-ipcMain.on('online', function() {
-    status = 'online';
-    findGame();
-});
-ipcMain.on('away', function() {
-    status = 'away';
-    findGame();
-});
-
 //RPC
 function findGame() {
     let gotGame = name;
@@ -106,11 +96,10 @@ function findGame() {
             }
         });
     });
-
-    setPresence(gotGame, desc, pic, status);
+    setPresence(gotGame, desc, pic);
 }
 
-function setPresence(game, desc, pic, status) {
+function setPresence(game, desc, pic) {
     if (desc.length < 2) {
         desc = 'Online'
     }
@@ -118,8 +107,6 @@ function setPresence(game, desc, pic, status) {
         state: desc,
         details: game,
         largeImageKey: pic,
-        largeImageText: game,
-        smallImageKey: status,
-        smallImageText: status.charAt(0).toUpperCase() + status.slice(1)
+        largeImageText: 'SwitchRPCUpdated',
     })
 }
