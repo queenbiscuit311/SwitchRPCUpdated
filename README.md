@@ -24,7 +24,7 @@ This fork of the original SwitchRPC was made because it was seemingly abandoned 
 
 
 
-**WIP:** Switch 2 Support, Make Games list searchable
+**WIP:** Switch 2 Support, Make Games list searchable, Update notifier
 
 ## Installation
 
