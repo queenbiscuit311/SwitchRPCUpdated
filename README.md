@@ -82,7 +82,7 @@ Additionally, ensure that `electron-builder` and `@electron/packager` are instal
 `git clone https://github.com/queenbiscuit311/SwitchRPCUpdated.git` 
 2. Enter the directory:   
 `cd SwitchRPCUpdated`
-5. Install dependencies:   
+5. Install dependencies (if using Windows, you may need to delete package-lock.json):   
 `npm install`
 6. Build:   
 `electron-builder`
