@@ -16,7 +16,7 @@ Celeste
 
 Cuphead
 
-Donkey Kong Country Tropical Freeze
+Donkey Kong Country: Tropical Freeze
 
 Fall Guys
 
