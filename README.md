@@ -10,7 +10,7 @@ Since the file that handles the supported games is hosted on GitHub and the imag
 
 **Explanation:**
 
-SwitchRPCUpdated is the simplest possible implementation of Discord Rich Presence for the Nintendo Switch/Switch 2. Instead of directly interfacing with Nintendo's server's like [nxapi](https://github.com/samuelthomas2774/nxapi), SwitchRPCUpdated has you manually set your Rich Presence by setting a game and a description. While not automatic, this method is reliable and is not going to break when Nintendo updates their API's, unlike nxapi. This project is mainly intended as a backup in case nxapi stops working, but it can also be used in its own right.
+SwitchRPCUpdated is the simplest possible implementation of Discord Rich Presence for the Nintendo Switch/Switch 2, available for Linux, macOS, and Windows. Instead of directly interfacing with Nintendo's server's like [nxapi](https://github.com/samuelthomas2774/nxapi), SwitchRPCUpdated has you manually set your Rich Presence by setting a game and a description. While not automatic, this method is reliable and is not going to break when Nintendo updates their API's, unlike nxapi. This project is mainly intended as a backup in case nxapi stops working, but it can also be used in its own right.
 
 **Why a fork?**
 
