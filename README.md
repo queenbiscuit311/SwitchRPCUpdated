@@ -20,7 +20,7 @@ This fork of the original SwitchRPC was made because it was seemingly abandoned 
 
 ### Screenshots:
 
-![image](https://github.com/user-attachments/assets/42c60091-4f79-47ee-a335-2d530e4cdf47)
+![image](https://github.com/user-attachments/assets/8e516eb6-d63a-47b8-a071-93443087f461)
 
 ![image](https://github.com/user-attachments/assets/c699d099-d7d3-4f9f-8281-a90d17b99712)
 
