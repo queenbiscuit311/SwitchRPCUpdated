@@ -30,11 +30,11 @@ This fork of the original SwitchRPC was made because it was seemingly abandoned 
 
 Currently availible build types:
 
-Windows (Portable), Windows (Installer), Linux (AppImage), Linux (Snap)
+Windows (Portable), Windows (Installer), Linux (AppImage), macOS (Apple Silicon)
 
 Builds are availible in the releases section.
 
-macOS ARM Builds coming soon.
+Since I don't have an Intel Mac to build on, macOS x86_64 users will need to build from source.
 
 ## Building from source:
 
