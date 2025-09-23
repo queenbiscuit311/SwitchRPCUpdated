@@ -35,6 +35,7 @@
 		     {"name": "Super Mario Maker 2", "pic": "smm2"},
 		     {"name": "Animal Crossing: New Horizons", "pic": "acnh"},
 		     {"name": "Hollow Knight", "pic": "hollowknight"},
+		     {"name": "Hollow Knight: Silksong", "pic": "silksong"},
 		     {"name": "Hades", "pic": "hades"},
 		     {"name": "Metroid Dread", "pic": "metroiddread"},
 		     {"name": "Ring Fit Adventure", "pic": "ring_fit"},
@@ -294,6 +295,11 @@
         "name": "Hollow Knight",
         "pic": "hollowknight",
         "aliases": ["hollow knight"]
+      },
+      {
+        "name": "Hollow Knight: Silksong",
+        "pic": "silksong",
+        "aliases": ["hollow knight: silksong", "hollow knight silksong", "silksong"]
       },
       {
         "name": "Hades",
