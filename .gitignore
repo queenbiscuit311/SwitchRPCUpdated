@@ -1,3 +1,5 @@
 dist
 node_modules
 icon_link.txt
+TODO.txt
+*.kate-swp
