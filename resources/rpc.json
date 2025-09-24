@@ -58,7 +58,7 @@
 		     {"name": "Super Mario 3D All-Stars", "pic": "3dallstars"},
 		     {"name": "Super Mario 3D World + Bowser's Fury", "pic": "3dworld"},
 		     {"name": "Super Mario Party", "pic": "supermarioparty"},
-		     {"name": "TSUKIHIME - A piece of blue glass moon -", "pic": "tsukihime"},
+		     {"name": "TSUKIHIME -blue glass moon-", "pic": "tsukihime"},
 		     {"name": "New Pokemon Snap", "pic": "pkmnsnap"},
 		     {"name": "Pokemon Legends: Arceus", "pic": "legendsarceus"},
 		     {"name": "Pokemon UNITE", "pic": "pokemon_unite"},
@@ -428,9 +428,9 @@
 	"aliases": ["monster camp xxl", "monster camp", "monstercamp"]
       },
       {
-	"name": "TSUKIHIME - A piece of blue glass moon -",
+	"name": "TSUKIHIME -blue glass moon-",
 	"pic": "tsukihime",
-	"aliases": ["TSUKIHIME - A piece of blue glass moon -", "tsukihime"]
+	"aliases": ["TSUKIHIME -blue glass moon-", "tsukihime"]
       }
     ],
 	"info": false,
